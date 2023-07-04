@@ -14,5 +14,8 @@ int Main(){
     acerto = false;
     acertos = 0;
 
+    cout << "Digite a palavra secreta";
+    cin >> palavra;
+
     return 0;
 }
