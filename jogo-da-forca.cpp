@@ -19,8 +19,10 @@ int main(){
     cin >> palavra;
     system("cls");
 
-    while(palavra[i] != '\0'){
-
+   
+    while(palavra[i] != '\0'){  // \0 caracter do Enter
+        i++;
+        tam++;
     }
 
     return 0;
