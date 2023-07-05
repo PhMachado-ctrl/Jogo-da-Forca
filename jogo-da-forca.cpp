@@ -32,7 +32,25 @@ int main(){
     //Rotina do Jogo
     while ((chances > 0)&&(acertos < tam))
     {
-        /* code */
+        cout << "Chances restantes: " << chances << "\n\n";
+        cout << "Palavra Secreta: ";
+        for (i = 0; i < tam; i++)
+        {
+           cout << secreta[i];
+        }
+        cout << "Digite uma Letra: ";
+        cin >> letra[0];
+        for(i = 0; i < tam; i++)
+        {
+          if (palavra[i] == letra[0])
+          {
+            acerto = true;
+            secreta[i] = palavra[i];
+            acertos++;
+          }
+          
+        }
+        
     }
     
 
