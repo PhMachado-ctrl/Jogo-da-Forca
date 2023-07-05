@@ -25,5 +25,16 @@ int main(){
         tam++;
     }
 
+    for(i=0;i<30;i++){
+        secreta[i]='-';
+    }
+
+    //Rotina do Jogo
+    while ((chances > 0)&&(acertos < tam))
+    {
+        /* code */
+    }
+    
+
     return 0;
 }
