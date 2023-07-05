@@ -50,9 +50,18 @@ int main(){
           }
           
         }
-        
+        if(!acerto){
+            chances--;
+        }
+        acerto = false;
+        system("cls");
+        if(acertos == tam){
+            cout << "Você Venceu";
+        }else{
+            cout << "Que Pena, Você Perdeu";
+        }
     }
     
-
+    system("pause");
     return 0;
 }
