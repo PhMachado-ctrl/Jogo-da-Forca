@@ -1,8 +1,9 @@
 #include <iostream>
+#include <stdlib.h>
 
 using namespace std;
 
-int Main(){
+int main(){
     //Palavra e as letras que serão as alternativas que irão digitando, e a palavra que era se revelando.
     char palavra[30], letra[1], secreta[30];
     int tam, i, chances, acertos;
@@ -14,8 +15,13 @@ int Main(){
     acerto = false;
     acertos = 0;
 
-    cout << "Digite a palavra secreta";
+    cout << "Digite a palavra secreta: ";
     cin >> palavra;
+    system("cls");
+
+    while(palavra[i] != '\0'){
+
+    }
 
     return 0;
 }
